@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tileserver:
+    image: pchynoweth/osm-tileserver:latest
+    ports:
+    - "8080:80"
+    volumes:
+    - ./data:/import
+    env_file: .env
