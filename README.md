@@ -17,7 +17,7 @@ docker-compose up
 ### With docker
 
 ```
-docker run --rm -p 8080:80 -v ./data:/import pchynoweth/osm-tileserver
+docker run --rm -p 8080:80 -v $PWD/data:/import pchynoweth/osm-tileserver
 ```
 
 ### Viewing the data
