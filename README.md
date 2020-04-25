@@ -29,4 +29,4 @@ npm install
 npm start
 ```
 
-This should start a basic http server locally.  You should then point your browser to [http://localhost:8080](http://localhost:8080).
+This should start a basic http server locally.  You should then point your browser to [http://localhost:3000](http://localhost:3000).
